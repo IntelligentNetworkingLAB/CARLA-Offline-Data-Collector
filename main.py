@@ -10,7 +10,7 @@ import time
 from typing import List, Optional
 
 
-N_NEIGHBORS = 100
+N_NEIGHBORS = 10
 
 def get_speed(vehicle: carla.Actor) -> float:
     v = vehicle.get_velocity()
